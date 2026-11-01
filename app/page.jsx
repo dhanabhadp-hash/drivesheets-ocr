@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 
-const GAS_ENDPOINT = 'YOUR_DEPLOYED_GOOGLE_APPS_SCRIPT_WEB_APP_URL';
+const GAS_ENDPOINT = 'https://script.google.com/macros/s/AKfycbxZTdY4LP_yOxQ47KcIFGY2pOgvX-quVhE3cem0pAPiqESEQPIhOss4r2leA4y2DlBn/exec';
 
 export default function InvoiceDashboard() {
   const [files, setFiles] = useState([]);
